@@ -23,6 +23,8 @@ consumer_secret <- "Your consumer secret"
 access_token <- "etc"
 access_secret <- "etc"
 
+source("scripts/twitter_keys.R")
+
 setup_twitter_oauth(consumer_key = consumer_key,
                     consumer_secret = consumer_secret,
                     access_token = access_token,
